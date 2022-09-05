@@ -1,0 +1,50 @@
+[
+  {
+    "role":"Front-end Developer (Remote)",
+    "id":"pixel8",
+    "active_period":"Jan 2022 - Present",
+    "company":"Pixel8 LLC",
+    "link":"https://www.linkedin.com/company/pixel8-llc/",
+    "responsibility":[
+      "- Developing screens and UI components for the web application using React and Tailwind.",
+      "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+      "- Developing contact based application and also NFT application",
+      "- Using React and integrating external APIs with the Stacks blockchain and Near blockchain.",
+      "- Frequently working on e-commerce projects."
+    ]
+  },
+  {
+    "role":"Front-end Developer",
+    "id":"niveus",
+    "active_period":"Nov 2020 - Dec 2021",
+    "company":"Niveus Solutions Pvt. Ltd.",
+    "link":"https://www.linkedin.com/company/niveus-solutions-pvt-ltd-/",
+    "responsibility":[
+      "- Working on web applications and occasionally leading the development team.",
+      "- Developed ICICI bank application and collaborating with the back-end engineers of the team."
+    ]
+  },
+  {
+    "role":"Front-end Developer",
+    "id":"priv",
+    "active_period":"Jun 2020 - Nov 2020",
+    "company":"PrivJS (Project)",
+    "link":"https://privjs.com/",
+    "responsibility":[
+      "- Convert designs into real world applications and pages using multiple front-end technologies.",
+      "- This is application is developed and designed without any help of a professional UI designer.",
+      "- Integration of the stripe payment gateway."
+    ]
+  },
+  {
+    "role":"Front-end Developer (Intern)",
+    "id":"practiskills",
+    "active_period":"Jun 2020 - Nov 2020",
+    "company":"Practiskills",
+    "link":"https://www.linkedin.com/company/practiskills/",
+    "responsibility":[
+      "- Developing the reusable and scalable react component",
+      "- This is the parent company of the privjs."
+    ]
+  }
+]

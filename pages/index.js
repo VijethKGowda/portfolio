@@ -1,6 +1,7 @@
 import { useTheme } from 'next-themes'
 import Head from 'next/head'
 import { useEffect } from 'react'
+import Experience from './Components/Experience'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 
@@ -14,10 +15,15 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='h-screen bg-white dark:bg-slate-900 overflow-scroll'>
-        <div className='px-4 md:px-16 lg:px-24 pb-10 max-w-6xl mx-auto font-inter'>
-          <Navbar setTheme={setTheme} theme={theme} />
-          <Hero />
+      <main className='font-inter'>
+        <div className='bg-white dark:bg-black'>
+          <div className='px-4 md:px-16 lg:px-24 pb-10 max-w-6xl mx-auto '>
+            <Navbar setTheme={setTheme} theme={theme} />
+            <Hero />
+          </div>
+          <div className='px-4 md:px-16 lg:px-24 pb-10 pt-14 md:pt-20 lg:pt-32 max-w-6xl mx-auto'>
+            <Experience />
+          </div>
         </div>
       </main>
     </div>

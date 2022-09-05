@@ -28,28 +28,28 @@ const Hero = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 text-black dark:text-white">
           <div onMouseLeave={() => { setTimeout(() => { setCopy(false) }, 1500) }} className="flex gap-0.5 justify-between bg-gradient-to-tr from-[#9358F7] via-[#4A9FEB] to-[#10D7E2] p-0.5 rounded-md">
-            <a href="mailto:vijethkgowda@gmail.com" className="py-3 w-full text-center bg-white dark:bg-slate-900 rounded-md">
+            <a href="mailto:vijethkgowda@gmail.com" className="py-3 w-full text-center bg-white dark:bg-black rounded-md">
               {/* <EnvelopeIcon className="w-5" /> */}
               Send an email
             </a>
             <div className="tooltip" data-tip={copy ? "Copied" : "Copy Email ID"}>
-              <button onClick={() => { copyToClipboard("vijethkgowda@gmail.com") }} className="bg-white h-full dark:bg-slate-900 border-none flex items-center justify-center hover:bg-white hover:dark:bg-slate-900 rounded-md px-3">
+              <button onClick={() => { copyToClipboard("vijethkgowda@gmail.com") }} className="bg-white h-full dark:bg-black border-none flex items-center justify-center hover:bg-white hover:dark:bg-black rounded-md px-3">
                 <ClipboardDocumentIcon className="w-5 text-black dark:text-white" />
               </button>
             </div>
           </div>
           <a href='https://www.linkedin.com/in/vijeth-k-476539152/' target="_blank" className="bg-gradient-to-tr from-[#6964DE] via-[#4A9FEB] to-[#FCA6E9] p-0.5 rounded-md" rel="noreferrer">
-            <div className="py-3 w-full text-center bg-white dark:bg-slate-900 rounded-md">
+            <div className="py-3 w-full text-center bg-white dark:bg-black rounded-md">
               LinkedIn
             </div>
           </a>
           <a href='https://twitter.com/vijethkgowda' target="_blank" className="bg-gradient-to-tr from-[#F4426C] to-[#FBF2B1] p-0.5 rounded-md" rel="noreferrer">
-            <div className="py-3 w-full text-center bg-white dark:bg-slate-900 rounded-md">
+            <div className="py-3 w-full text-center bg-white dark:bg-black rounded-md">
               Twitter
             </div>
           </a>
           <a href='https://github.com/VijethKGowda' target="_blank" className="bg-gradient-to-tr from-[#D24074] via-[#4A9FEB] to-[#6518B4] p-0.5 rounded-md" rel="noreferrer">
-            <div className="py-3 w-full text-center bg-white dark:bg-slate-900 rounded-md">
+            <div className="py-3 w-full text-center bg-white dark:bg-black rounded-md">
               Github
             </div>
           </a>
