@@ -17,13 +17,13 @@ const Hero = () => {
         <div className='pt-14 md:pt-20 lg:pt-24 space-y-6 lg:space-y-8'>
           <div className='font-light text-sm md:text-sm lg:text-base text-gray-800 dark:text-slate-200'>Hey, I’m</div>
           <h1 className='font-medium py-2 text-4xl md:text-6xl lg:text-8xl main-text'>
-            Vijeth K Gowda
+            Vijeth K
           </h1>
           <p className='font-light text-sm md:text-base lg:text-lg text-gray-800 dark:text-slate-200'>
             I&apos;m a Front-End Developer based in Mangalore, India.
             I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
             I can build responsive web applications using ReactJs, Redux, TailwindCSS and Javascript. I also work on NextJs for SSR applications and little bit of React native for mobile.
-            I&apos;ve manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work.
+            I&apos;ve manage to gain a good amount of experience and valuable knowledge from all different kinds of situations throughout my projects/work.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 text-black dark:text-white">
