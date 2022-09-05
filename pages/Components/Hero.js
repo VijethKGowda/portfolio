@@ -1,5 +1,5 @@
 import { ClipboardDocumentIcon } from "@heroicons/react/24/outline"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 const Hero = () => {
   const [copy, setCopy] = useState(false)
@@ -32,8 +32,8 @@ const Hero = () => {
               {/* <EnvelopeIcon className="w-5" /> */}
               Send an email
             </a>
-            <div className="tooltip" data-tip={copy ? "Copied" : "Copy Email ID"}>
-              <button onClick={() => { copyToClipboard("vijethkgowda@gmail.com") }} className="bg-white h-full dark:bg-black border-none flex items-center justify-center hover:bg-white hover:dark:bg-black rounded-md px-3">
+            <div className="tooltip" data-tip={copy ? "Copied" : "Copy Email"}>
+              <button aria-label="clipboard" onClick={() => { copyToClipboard("vijethkgowda@gmail.com") }} className="bg-white h-full dark:bg-black border-none flex items-center justify-center hover:bg-white hover:dark:bg-black rounded-md px-3">
                 <ClipboardDocumentIcon className="w-5 text-black dark:text-white" />
               </button>
             </div>

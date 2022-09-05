@@ -11,10 +11,10 @@ const Navbar = ({ setTheme, theme }) => {
           {/* <a className='cursor-pointer font-light'>Contact</a> */}
           {
             theme === 'light' ?
-              <button onClick={() => { setTheme('dark') }} className=''>
+              <button aria-label="moon" onClick={() => { setTheme('dark') }} className=''>
                 <MoonIcon className='text-gray-700 w-6' />
               </button> :
-              <button onClick={() => { setTheme('light') }} className=''>
+              <button aria-label="sun" onClick={() => { setTheme('light') }} className=''>
                 <SunIcon className='text-orange-300 w-7' />
               </button>
           }

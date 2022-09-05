@@ -1,6 +1,5 @@
 import { useTheme } from 'next-themes'
 import Head from 'next/head'
-import { useEffect } from 'react'
 import Experience from './Components/Experience'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
