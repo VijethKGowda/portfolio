@@ -14,8 +14,8 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='h-screen bg-white dark:bg-black'>
-        <div className='px-4 md:px-16 lg:px-24 max-w-6xl mx-auto font-inter'>
+      <main className='h-screen bg-white dark:bg-slate-900 overflow-scroll'>
+        <div className='px-4 md:px-16 lg:px-24 pb-10 max-w-6xl mx-auto font-inter'>
           <Navbar setTheme={setTheme} theme={theme} />
           <Hero />
         </div>
