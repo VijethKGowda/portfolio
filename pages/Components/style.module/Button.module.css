@@ -1,0 +1,42 @@
+.glow::before,
+.glow::after {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  background: linear-gradient(
+    45deg,
+    #e6fb04,
+    #9358f7,
+    #4a9feb,
+    #ff3399,
+    #10d7e2,
+    #6eedde,
+    #ff3300,
+    #6eedde,
+    #10d7e2,
+    #ff3399,
+    #4a9feb,
+    #9358f7,
+    #e6fb04
+  );
+  background-size: 400%;
+  width: calc(99%);
+  height: calc(96%);
+  animation: animate 30s linear infinite;
+  border-radius: 8px;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 150% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.glow::after {
+  filter: blur(10px);
+}

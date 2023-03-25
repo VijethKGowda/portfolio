@@ -2,14 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-.main-text{
-  background: linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+.main-text {
+  background: linear-gradient(
+    89.81deg,
+    #9845e8 -1.72%,
+    #33d2ff 54.05%,
+    #dd5789 99.78%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #9845e8;
+}
+
+::selection {
+  color: white;
+  background: #9845e8;
+}
+.glow::before .glow::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient
+    (45deg, #9358f7, #4a9feb, #10d7e2, #6eedde, #ff3300);
+  background-size: 400%;
+  width: calc(108%+ 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  0% {
+    background-position: 0 0;
+  }
+}
+.glow::after {
+  filter: blur(40px);
+  opacity: 0.99;
 }
 
 /* main{
